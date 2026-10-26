@@ -1,0 +1,22 @@
+.hello-container {
+    text-align: center; /* Centralizar o conteúdo */
+    margin-top: 20px; /* Espaço acima do contêiner */
+}
+.name-list {
+    display: flex;
+    justify-content: center; /* Centralizar os botões na linha */
+    flex-direction: row; /* Dispor itens na mesma linha */
+    gap: 10px; /* Espaçamento entre os botões */
+  }
+  
+  button {
+    padding: 10px;
+    background-color: white; /* Cor de fundo branca */
+    color: black; /* Cor da escrita preta */
+    border: 2px solid black; /* Contorno preto */
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #f0f0f0; /* Leve mudança de cor ao passar o mouse */
+  }
